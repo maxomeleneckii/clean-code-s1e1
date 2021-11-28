@@ -16,7 +16,7 @@
 .more-inf {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .inf {
     text-align: center;
   }
