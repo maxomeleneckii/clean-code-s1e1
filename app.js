@@ -8,10 +8,10 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput = document.getElementById("new__task"); //Add a new task.
+var taskInput = document.getElementById("add__header"); //Add a new task.
 var addButton = document.getElementsByTagName("button")[0]; //first button
 var incompleteTaskHolder = document.getElementById("todo__list"); //ul of #todo__list
-var completedTasksHolder = document.getElementById("completed__list"); //completed__list
+var completedTasksHolder = document.getElementById("cmd__list"); //completed__list
 
 
 //New task list item
@@ -85,7 +85,7 @@ var editTask = function () {
     var editInput = listItem.querySelector('input[type=text]');
     var label = listItem.querySelector("label");
     var editBtn = listItem.querySelector(".edit");
-    var containsClass = listItem.classList.contains("edit__mode");
+    var containsClass = listItem.classList.contains("todo__item");
     //If class of the parent is .editmode
     if (containsClass) {
 
@@ -99,7 +99,7 @@ var editTask = function () {
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("edit__mode");
+    listItem.classList.toggle("todo__item");
 };
 
 

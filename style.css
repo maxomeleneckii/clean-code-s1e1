@@ -26,12 +26,12 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.wrapper__field__entry {
+.add__content_entry {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.wrapper__field {
+.add__content {
   display: flex;
 }
 ul {
@@ -60,7 +60,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new__task"] {
+label[for="add__header"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,11 +85,11 @@ input[type="text"]:focus {
   color: #333;
 }
 /* New Task */
-label[for="new__task"] {
+label[for="add__header"] {
   display: block;
   margin: 0 0 20px;
 }
-#new__task {
+#add__header {
   width: 318px;
 }
 /* Task list */
@@ -125,7 +125,7 @@ li > input[type="text"] {
   transform: rotateZ(0);
 }
 /* Completed */
-#completed__list label {
+#cmd__list label {
   text-decoration: line-through;
   color: #888;
 }
@@ -133,10 +133,10 @@ li > input[type="text"] {
 li input[type="text"] {
   display: none;
 }
-.edit__mode input[type="text"] {
+.todo__item input[type="text"] {
   display: inline-block;
   width: 224px;
 }
-.edit__mode label {
+.todo__item label {
   display: none;
 }
