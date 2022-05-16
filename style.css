@@ -2,7 +2,7 @@
 .container {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
 }
 .header {
   width: 500px;
@@ -52,7 +52,7 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   cursor: pointer;
 }
 button:hover {
