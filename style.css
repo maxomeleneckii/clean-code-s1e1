@@ -43,7 +43,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 button {
@@ -135,7 +135,7 @@ li input[type="text"] {
 }
 .edit__mode input[type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 .edit__mode label {
   display: none;
