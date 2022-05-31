@@ -130,7 +130,7 @@ ul {
   margin: 0 10px;
 }
 
-.item > label {
+.item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -141,19 +141,19 @@ ul {
   width: 226px;
 }
 
-.delete img {
+.delete .img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete .img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-#cmd__list label {
+#cmd__list .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -169,7 +169,7 @@ ul {
   width: 224px;
 }
 
-.todo__item label {
+.todo__item .label {
   display: none;
 }
 
